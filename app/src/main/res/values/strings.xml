@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">NoGate</string>
+    <string name="title_activity_lock_scr">Lock screen player</string>
+    <string name="title_activity_file_explorer">File explorer</string>
+    <string name="add">Add</string>
+    <string name="youtube_video_added">Youtube video is added</string>
+    <string name="error">Error</string>
+    <string name="link_isnt_yt_link">Sorry, the link you entered is not Youtube video link</string>
+    <string name="successful">Successful</string>
+    <string name="permission_failed">Getting permission resulted with failure. You can change at settings.</string>
+    <string name="cancel">Cancel</string>
+    <string name="activated_lockscr_player">Lock screen player is enabled</string>
+    <string name="will_be_played_at_ls">The videos you added will be played on the lock screen</string>
+    <string name="chng_are_saved">Changes are saved</string>
+    <string name="sorage_permissions">Storage permissions</string>
+    <string name="needed_storage_perms">We need storage permissions for select video and etc.</string>
+    <string name="File">File</string>
+    <string name="folder">Folder</string>
+    <string name="storages">Storages</string>
+    <string name="back">Back</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example settings for Data & Sync -->
+
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="show_yt_vid_in_cellular">Open Youtube videos in cellular data mode</string>
+    <string name="enter_yt_link">Paste or enter youtube video\'s link</string>
+    <string name="paste_the_youtube_link">Paste the youtube link</string>
+
+    <string name="first_opening_warning">You agree to the End user license agreement if you use the application.
+        Esenler Motionstar Software (And parent organization, Morphosium Software) cannot hold responsible for damage
+        psychology due Wrong Content selection. Therefore, add your contents carefully...
+    </string>
+    <string name="agree">Agree</string>
+    <string name="play_yt_in_cell_true">All videos will be played even cellular data is enabled. *This can cause exceed
+        data limit*
+    </string>
+    <string name="play_yt_in_cell_false">If your cellular data is enabled, Only offline videos is played.</string>
+    <string name="about_text">Morphosium NoGate (Ver: 1.0 Beta) \n(C) 2019 - Morphosium Software\nAll rights reserved
+    </string>
+    <string name="not_stable">Attention: This version ISN\'T STABLE</string>
+    <string name="adding_yt_video">Adding YouTube Video</string>
+    <string name="pref_header_general">General</string>
+    <string name="file_is_not_found">File is not found</string>
+    <string name="yt_video">YouTube video</string>
+    <string name="offline_video">Video file that is stored in device</string>
+    <string name="browse_video_files">Browse video files</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="external_storage">External Storage</string>
+    <string name="ok">OK</string>
+    <string name="ytba_add_from_video_page_info">"\n
+        <![CDATA[In this screen; you can add video you want, by visiting to page of video you want to add and touching \'Add\' (+) button again.<b>Support screenshots can be different because of version differences.</b>]]>
+        \n \n "
+    </string>
+    <string name="refresh">Yenile</string>
+    <string name="addingvidbybrowseyt">Adding video by browse YouTube</string>
+    <string name="browseyt">Browse YouTube</string>
+    <string name="yt_video_link">Add from YouTube by using link</string>
+    <string name="extendmore5mins">Extend more 5 minutes</string>
+    <string name="extendmore10mins">Extend more 10 minutes</string>
+    <string name="extendmore15mins">Extend more 15 minutes</string>
+    <string name="extendmore30mins">Extend more 30 minutes</string>
+    <string name="dontLimitForToday">Don\'t limit for today</string>
+    <string name="extendMoreXmins">Extend more … minutes</string>
+    <string name="enableTimeLimit">Enable time limit</string>
+    <string name="TimeLimitValue">Time limit</string>
+    <string name="TimeLimit">Time limit</string>
+    <string name="minutes">Minutes</string>
+    <string name="hour_s_and_x">&#160;hour(s) and&#160;</string>
+    <string name="x_minute_s">&#160;minute(s)&#160;</string>
+    <string name="TimesUp">Watchable times are expired</string>
+    <string name="extendTime">Extend time</string>
+    <string name="ExtendingTime">Extending time</string>
+    <string name="that_cant_added">Unable to add this youtube video. Tell our support team that this video is safe or add different non-harmful video.
+    </string>
+    <string name="start_play_when_locked_screen">
+        When your screen is locked, Videos in list start play in order from video you touched
+    </string>
+    <string name="watched_times">Watched times</string>
+    <string name="enterAsMinute">Enter as minute (Dflt: extends 10 mins)</string>
+    <string name="timeExpiredNotifMsg">Touch this notification for extend time limit for today
+    </string>
+    <string name="itibaren">from {0}</string>
+    <string name="allowEndVideo_chckbox">Even time exceed, allow end the video (If watched 75% of video or more)
+    </string>
+
+</resources>

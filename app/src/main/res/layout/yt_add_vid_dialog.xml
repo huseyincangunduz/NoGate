@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:orientation="vertical" app:layout_goneMarginStart="10dp"
+              app:layout_goneMarginTop="10dp" app:layout_goneMarginRight="10dp" app:layout_goneMarginLeft="10dp"
+              app:layout_goneMarginEnd="10dp" app:layout_goneMarginBottom="10dp">
+    <LinearLayout android:layout_width="match_parent" android:orientation="vertical"
+                  android:layout_height="match_parent" android:padding="15dp">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="0dp"
+                android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+
+            <TextView
+                    android:text="@string/enter_yt_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView" android:layout_weight="1"
+                    android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"/>
+        </RelativeLayout>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/paste_the_youtube_link"
+                android:ems="10"
+                android:id="@+id/linkTextBox" android:layout_weight="1"
+                android:padding="10dp" android:layout_marginLeft="0dp" android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp" android:layout_marginRight="0dp" android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"/>
+    </LinearLayout>
+</LinearLayout>

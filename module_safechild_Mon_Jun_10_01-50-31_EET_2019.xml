@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_safechild" default="compile.module.safechild">
+  <dirname property="module.safechild.basedir" file="${ant.file.module_safechild}"/>
+  
+  <property name="module.jdk.home.safechild" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.safechild" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.safechild" value="jdk.classpath.1.8"/>
+  
+  <property name="compiler.args.safechild" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="safechild.output.dir" value="${module.safechild.basedir}/build/classes/production/SafeChild"/>
+  <property name="safechild.testoutput.dir" value="${module.safechild.basedir}/build/classes/test/SafeChild"/>
+  
+  <path id="safechild.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="safechild.module.production.classpath">
+    <path refid="${module.jdk.classpath.safechild}"/>
+  </path>
+  
+  <path id="safechild.runtime.production.module.classpath">
+    <pathelement location="${safechild.output.dir}"/>
+  </path>
+  
+  <path id="safechild.module.classpath">
+    <path refid="${module.jdk.classpath.safechild}"/>
+    <pathelement location="${safechild.output.dir}"/>
+  </path>
+  
+  <path id="safechild.runtime.module.classpath">
+    <pathelement location="${safechild.testoutput.dir}"/>
+    <pathelement location="${safechild.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.safechild">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.safechild">
+    <patternset refid="excluded.from.module.safechild"/>
+  </patternset>
+  
+  
+  <target name="compile.module.safechild" depends="compile.module.safechild.production,compile.module.safechild.tests" description="Compile module SafeChild"/>
+  
+  <target name="compile.module.safechild.production" depends="register.custom.compilers" description="Compile module SafeChild; production classes"/>
+  
+  <target name="compile.module.safechild.tests" depends="register.custom.compilers,compile.module.safechild.production" description="compile module SafeChild; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.safechild" description="cleanup module">
+    <delete dir="${safechild.output.dir}"/>
+    <delete dir="${safechild.testoutput.dir}"/>
+  </target>
+</project>

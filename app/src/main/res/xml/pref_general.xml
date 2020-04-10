@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+            android:key="x"
+            android:title="Ayarlar ekranından çıktığınızda ayarlar kaydedilecektir">
+    </Preference>
+    <SwitchPreference
+            android:key="youtube_watchable_in_cellular"
+
+            android:title="@string/show_yt_vid_in_cellular"
+            android:summary="@string/play_yt_in_cell_false"
+            android:defaultValue="false"/>
+
+</PreferenceScreen>

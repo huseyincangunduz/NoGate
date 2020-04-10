@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" android:layout_margin="5dp"
+                                    app:cardCornerRadius="4dp"
+                                    app:cardElevation="5dp"
+                                   android:foreground="?android:attr/selectableItemBackground"
+                                   android:clickable="true" android:focusable="true">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:maxHeight="100dp" android:id="@+id/imageView"
+                android:foregroundGravity="bottom" android:scaleType="centerCrop"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:background="#a7ffffff"
+                        android:padding="15dp">
+            <TextView
+                    android:id="@+id/filenametitletxt"
+                    android:text="içerik"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp" android:textStyle="bold"/>
+            <TextView
+                    android:id="@+id/filetypelabel"
+                    android:text="Unknown"
+
+                    android:paddingEnd="5dp" android:paddingTop="5dp"
+                    android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/filenametitletxt" android:layout_below="@+id/filenametitletxt"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

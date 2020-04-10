@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:orientation="vertical" app:layout_goneMarginStart="10dp"
+              app:layout_goneMarginTop="10dp" app:layout_goneMarginRight="10dp" app:layout_goneMarginLeft="10dp"
+              app:layout_goneMarginEnd="10dp" app:layout_goneMarginBottom="10dp">
+    <LinearLayout android:layout_width="match_parent" android:orientation="vertical"
+                  android:layout_height="match_parent" android:padding="15dp">
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/rbgroup">
+            <RadioButton
+                    android:text="@string/extendmore5mins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/rb_five_mins" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="@string/extendmore10mins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/rb_ten_mins" android:layout_weight="1"
+                    android:checked="true"/>
+            <RadioButton
+                    android:text="@string/extendmore15mins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/rb_fifteen_mins" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="@string/extendmore30mins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/rb_thirty_mins" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="@string/dontLimitForToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/rb_unlimited" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="@string/extendMoreXmins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/rb_costum" android:layout_weight="1"/>
+        </RadioGroup>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/extend_min_costum_txtbox"
+                android:hint="@string/enterAsMinute"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

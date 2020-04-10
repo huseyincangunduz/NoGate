@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/insert_video_file"
+          android:orderInCategory="100"
+          android:title="@string/browse_video_files"/>
+    <item android:id="@+id/insert_youtube_video"
+          android:orderInCategory="100"
+          android:title="@string/yt_video_link"/>
+    <item android:id="@+id/browse_youtube_videos"
+          android:orderInCategory="100"
+          android:title="@string/browseyt"/>
+</menu>

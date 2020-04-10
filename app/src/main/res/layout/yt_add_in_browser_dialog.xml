@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:orientation="vertical" app:layout_goneMarginStart="10dp"
+              app:layout_goneMarginTop="10dp" app:layout_goneMarginRight="10dp" app:layout_goneMarginLeft="10dp"
+              app:layout_goneMarginEnd="10dp" app:layout_goneMarginBottom="10dp">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:orientation="vertical"
+                      android:layout_height="wrap_content" android:padding="15dp" android:paddingEnd="25dp"
+                      android:paddingStart="25dp">
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="0dp"
+                    android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:paddingBottom="15dp">
+
+                <TextView
+                        android:text="..."
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ytba_addfromvideopage_txt"/>
+            </RelativeLayout>
+            <ImageView
+                    android:src="@drawable/ytba_tutimg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="295dp" android:id="@+id/imageView3"
+
+                    android:layout_weight="1"/>
+            <ImageView
+                    android:src="@drawable/ytba_tutimg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="295dp" android:id="@+id/imageView4"
+
+                    android:layout_weight="1" android:paddingTop="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

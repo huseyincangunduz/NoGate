@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+>
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay" android:id="@+id/AppBarLayout">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/mainacttoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <WebView
+                android:id="@+id/information_webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/recyclerView"
+
+                android:visibility="invisible"
+                android:paddingBottom="72dp"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView"
+                                                   android:paddingBottom="72dp"
+                                                   android:clipToPadding="false"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+
+                                                   app:layout_constraintTop_toTopOf="parent"
+                                                   app:layout_constraintStart_toStartOf="parent"
+                                                   app:layout_constraintEnd_toEndOf="parent"
+                                                   app:layout_constraintHorizontal_bias="0.0"
+                                                   android:layout_alignParentTop="true" android:layout_marginTop="56dp"
+                                                   android:layout_alignParentBottom="true"
+        >
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="25dp"
+            android:tint="@android:color/background_light" android:maxWidth="128dp" android:maxHeight="128dp"/>
+</RelativeLayout>

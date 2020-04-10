@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">NoGate</string>
+    <string name="title_activity_lock_scr">Kilit ekranı oynatıcısı</string>
+    <string name="title_activity_file_explorer">Dosya gezgini</string>
+    <string name="add">Ekle</string>
+    <string name="youtube_video_added">Youtube videosu eklendi</string>
+    <string name="error">Hata</string>
+    <string name="link_isnt_yt_link">Maalesef girdiğiniz link Youtube video linki değil</string>
+    <string name="successful">Başarılı</string>
+    <string name="permission_failed">İzin başarısızlıkla sonuçlandı, Ayarlardan tekrar değiştirebilirsiniz.</string>
+    <string name="cancel">İptal</string>
+    <string name="activated_lockscr_player">Kilit ekranı çalıcısı etkin</string>
+    <string name="will_be_played_at_ls">Eklediğiniz videolar kilit ekranında oynatılacaktır</string>
+    <string name="chng_are_saved">Değişiklikler kaydedildi</string>
+    <string name="sorage_permissions">Depolama izinleri</string>
+    <string name="needed_storage_perms">Video seçme gibi işlemler için depolama izinlerine ihtiyacımız var.</string>
+    <string name="File">Dosya</string>
+    <string name="folder">Klasör</string>
+    <string name="storages">Depolama alanları</string>
+    <string name="back">Geri</string>
+    <string name="settings">Ayarlar</string>
+    <string name="about">Hakkında</string>
+    <string name="show_yt_vid_in_cellular">Youtube videolarını hücresel veri modunda aç</string>
+    <string name="enter_yt_link">YouTube videosunun bağlantısını yapıştırın veya girin</string>
+    <string name="paste_the_youtube_link">Youtube bağlantısını yapıştırın</string>
+    <string name="first_opening_warning">Uygulamayı kullanmanız halinde Son kullanıcı lisans anlaşmasını kabul etmiş
+        sayılırsınız. Ve yanlış içerik seçiminden dolayı verilen zararlardan Esenler Motionstar Yazılım\'ı (Ve üst
+        kuruluşu Morphosium Yazılım\'ı) sorumlu tutamazsınız. Bu nedenle içeriğinizi dikkatlice ekleyiniz.
+    </string>
+    <string name="agree">Kabul et</string>
+    <string name="play_yt_in_cell_true">Hücresel ağınız açık ta olsa tüm videolar oynatılacaktır. *Bu da kota aşımına
+        neden olabilir*
+    </string>
+    <string name="play_yt_in_cell_false">Hücresel ağınız etkin olduğunda sadece çevrimdışı (cihazınızdaki dosyaları)
+        oynatılacaktır.
+    </string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="pref_header_general">Genel</string>
+    <string name="about_text">Morphosium NoGate (Ver: 1.0 Beta) (C) 2019 - Morphosium Yazılım Tüm hakları saklıdır
+    </string>
+    <string name="not_stable">Dikkat: NİHAİ sürüm değildir!</string>
+    <string name="adding_yt_video">Youtube videosu ekleme</string>
+    <string name="file_is_not_found">Dosya bulunamadı</string>
+    <string name="yt_video">YouTube videosu</string>
+    <string name="offline_video">Cihazda depolanan video dosyası</string>
+    <string name="browse_video_files">Video dosyalarına göz atın</string>
+    <string name="external_storage">Harici hafıza</string>
+    <string name="internal_storage">Dahili hafıza</string>
+    <string name="ok">TAMAM</string>
+    <string name="ytba_add_from_video_page_info">
+        <![CDATA[Bu ekran üzerinden eklemek istediğiniz videonun sayfasına girerek ve tekrardan \'Ekle\' (+) butonuna basarak, eklemek istediğiniz videoyu ekleyebilirsiniz. <b>Yardımcı resimler sürüm farklılıklarından dolayı farklı olabilir</b>]]></string>
+    <string name="refresh">Yenile</string>
+    <string name="addingvidbybrowseyt">YouTube\'ta videolara göz atarak video ekleme</string>
+    <string name="browseyt">YouTube\'a göz at</string>
+    <string name="yt_video_link">YouTube videosunu link kullanarak ekle</string>
+    <string name="extendmore5mins">5dk daha artır</string>
+    <string name="extendmore10mins">10dk daha artır</string>
+    <string name="extendmore15mins">15dk daha artır</string>
+    <string name="extendmore30mins">30dk daha artır</string>
+    <string name="dontLimitForToday">Bugün için sınırlama yapma</string>
+    <string name="extendMoreXmins">… dakika kadar daha artır</string>
+    <string name="enableTimeLimit">Zaman sınırlamayı aktif et</string>
+    <string name="TimeLimitValue">Zaman sınırı</string>
+    <string name="TimeLimit">Zaman sınırlama</string>
+    <string name="minutes">Dakika</string>
+    <string name="hour_s_and_x">&#160;saat ve&#160;</string>
+    <string name="x_minute_s">&#160;dakika&#160;</string>
+    <string name="TimesUp">Zaman doldu</string>
+    <string name="extendTime">Süreyi artır</string>
+    <string name="ExtendingTime">Süre uzatma</string>
+    <string name="that_cant_added">Bu youtube videosu eklenemiyor. Destek ekibimize bu videonun güvenli olduğunu
+        bildirin ya da farklı zararlı olmayan video ekleyin.
+    </string>
+    <string name="start_play_when_locked_screen">Telefonunuzu kilitlediğiniz an dokunduğunuz videodan itibaren sırasıyla
+        oynatılacaktır
+    </string>
+    <string name="watched_times">İzlenilen süre</string>
+    <string name="enterAsMinute">Dk. olarak giriniz (Vrs.: 10dk uzatılır)</string>
+    <string name="timeExpiredNotifMsg">Bugün için; sınırı artırmak için bu bildirime dokunun.
+    </string>
+    <string name="itibaren">from {0}</string>
+    <string name="allowEndVideo_chckbox">Aşılsa bile oynatılan videonun bitirilmesine izin ver (%75\'inden fazla
+        izlendiyse)
+    </string>
+</resources>

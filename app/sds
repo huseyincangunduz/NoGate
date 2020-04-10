@@ -1,0 +1,23 @@
+/*int getTodayWatchingTimeMinutes_(SQLiteDatabase db) {
+
+    DateToday today = new DateToday();
+
+    Cursor c = db.rawQuery("SELECT watchingTime FROM WatchingTimesLogs WHERE day=? and month=? and year=?",today.dataStrings());
+    if (c.getCount() > 0) {
+        c.moveToFirst();
+        Integer ix = c.getInt(c.getColumnIndex("watchingTime"));
+        if (ix != null) {
+            return ix;
+        } else {
+            return 0;
+        }
+    } else {
+        db.execSQL("INSERT INTO WatchingTimesLogs(\"day\",\"month\",\"year\",\"watchingTime\") VALUES (?,?,?,0)",today.dataStrings());
+        return 0;
+    }
+}*/
+
+
+
+
+
